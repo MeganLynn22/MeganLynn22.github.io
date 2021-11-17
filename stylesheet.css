@@ -11,12 +11,12 @@ body {
 
 
 div.title {
-  font-family: 'Ubuntu';
+  font-family: 'baskerville';
   color: white;
   font-size: 37.5px;
   border: solid;
   border-color: white;
-  width: 465px;
+  width: 450px;
 }
 
 div.subtitle {
