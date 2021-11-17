@@ -12,11 +12,11 @@ body {
 
 div.title {
   font-family: 'baskerville';
-  color: white;
+  color: black;
   font-size: 37.5px;
   border: solid;
-  border-color: white;
-  width: 450px;
+  border-color: black;
+  width: 350px;
 }
 
 div.subtitle {
