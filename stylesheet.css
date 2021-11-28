@@ -15,7 +15,7 @@ div.title {
   font-size: 37.5px;
   border: solid;
   border-color: black;
-  width: 350px;
+  width: 335px;
 }
 
 div.subtitle {
@@ -143,7 +143,7 @@ li {
 
 a:link {
   text-decoration: none;
-  color: purple;
+  color: white;
 }
 
 a:link.two {
