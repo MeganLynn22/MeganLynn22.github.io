@@ -31,10 +31,10 @@ div.menu {
   position: relative;
   left: 193px;
   font-family: 'Oxygen';
-  background-color: white;
-  color: purple;
+  background-color: black;
+  color: white;
   border: solid;
-  border-color: white;
+  border-color: black;
   width: 272px;
 }
 
