@@ -9,12 +9,8 @@ body {
 
 
 
-div.title {
-  font-family: 'baskerville';
-  color: black;
-  font-size: 37.5px;
-  border: solid;
-  border-color: black;
+div.logo {
+
   width: 330px;
 }
 
