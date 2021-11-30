@@ -24,8 +24,8 @@ div.subtitle {
 
 div.menu {
   position: relative;
-  right: 193px;
-  font-family: 'Helvetica';
+ left: 193px;
+  font-family: 'Oxygen';
   background-color: white;
   color: DarkCyan;
   width: 240px;
