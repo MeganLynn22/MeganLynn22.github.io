@@ -24,11 +24,10 @@ div.subtitle {
 
 div.menu {
   position: relative;
-  left: 193px;
-  font-family: 'Oxygen';
+  right: 193px;
+  font-family: 'Helvetica';
   background-color: white;
   color: DarkCyan;
-  
   width: 240px;
 }
 
