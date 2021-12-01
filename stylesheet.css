@@ -135,6 +135,7 @@ a:link.two {
 
 a:visited {
   text-decoration: none;
+	color: black;
 }
 
 img {
