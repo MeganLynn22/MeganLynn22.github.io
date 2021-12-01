@@ -173,7 +173,7 @@ img.three {
   /* remove .gif background set background color to purple */
   body {
     background-image: none !important;	  
-    background-color: OldLace !important;
+    background-color: DarkSlateGray !important;
   }
 	
 }
