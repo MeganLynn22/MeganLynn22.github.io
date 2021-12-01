@@ -9,8 +9,9 @@ body {
 
 
 
-div.logo {
-
+div.logoimage {
+  float: left;
+  width: 200px;
 }
 
 div.subtitle {
