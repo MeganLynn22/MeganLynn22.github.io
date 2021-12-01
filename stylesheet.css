@@ -166,6 +166,285 @@ img.three {
 
 
 
+/* amanda styling */
+div.Atext {
+  margin: 10px;
+  font-family: 'Oxygen';
+  color: white;
+  width: 600px;
+}
+
+div.amandaexamples {
+  vertical-align: top;
+  display: inline-block;
+  /*left: auto; added this*/
+  margin: 10px;
+  width: auto;
+  height: auto;
+  background-color: white;
+  color: white;
+  padding: 10px;
+}
+
+img.amanda1 {
+  width: 773px;
+  height: 500px;
+  padding: 4px;
+  margin: 4px;
+  border: solid 1px;
+  border-color: purple;
+}
+
+img.amanda2 {
+  width: 889px;
+  height: 500px;
+  padding: 4px;
+  margin: 4px;
+  border: solid 1px;
+  border-color: purple;
+}
+
+img.amanda3 {
+  width: 500px;
+  height: 500px;
+  padding: 4px;
+  margin: 0px;
+  border: solid 1px;
+  border-color: purple;
+}
+
+img.amanda4 {
+  width: 1182px;
+  height: 500px;
+  padding: 4px;
+  margin: 0px;
+  border: solid 1px;
+  border-color: purple;
+}
+/* end of amanda styling*/
+
+/* JACOB styling*/
+
+div.Jtext {
+  margin: 10px;
+  font-family: 'Futura';
+  color: white;
+  width: 600px;
+  text-align: center;
+}
+
+div.jacobexamples {
+  margin: 2px;
+  padding: 2px;
+  width: auto;
+  height: auto;
+  vertical-align: top;
+  display: inline-block;
+  background-color: grey;
+  color: white;
+  align-content: center;
+}
+
+img.jacob {
+  width: 486px;
+  height: 364px;
+  padding: 4px;
+  margin: 4px;
+  border: solid 2px;
+  border-color: orange;
+}
+/* end of JACOB styling*/
+
+/* CASSIAN styling*/
+
+div.Ctext {
+  margin: 10px;
+  font-family: 'M PLUS Rounded 1c';
+  color: white;
+  width: 800px;
+}
+
+div.cassianexamples {
+  margin: 4px;
+  padding: 4px;
+  width: auto;
+  height: auto;
+  vertical-align: top;
+  display: inline-block;
+  background-color: white;
+  color: white;
+ 
+}
+
+img.cassian1 {
+  width: 1224px;
+  height: 792px;
+  padding: 4px;
+  margin: 4px;
+  border: solid 2px;
+  border-color: yellow;
+}
+
+img.cassian2 {
+  width: 486px;
+  height: 364px;
+  padding: 4px;
+  margin: 4px;
+  border: solid 2px;
+  border-color: orange;
+}
+/* end of CASSIAN styling*/
+
+/* Start of Polo's styling*/
+
+div.Ptext {
+	text-align: right;
+	color: white;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 25px;
+	margin-left: 300px;
+	border: solid;
+  	border-color: white;
+}
+
+div.Ptext2 {
+	text-align: left;
+	color: white;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 300px;
+	margin-left: 25px;
+	border: solid;
+  	border-color: white;
+}
+
+/* Start of Megans Styling */
+div.Mtext {
+  margin: 10px;
+  font-family: 'Helvetica';
+  color: white;
+  width: 600px;
+}
+
+div.meganexamples {
+  vertical-align: top;
+  display: inline-block;
+  /*left: auto; added this*/
+  margin: 10px;
+  width: auto;
+  height: auto;
+  background-color: white;
+  color: white;
+  padding: 10px;
+}
+
+img.megan1 {
+  width: 500px;
+  height: 500px;
+  padding: 4px;
+  margin: 4px;
+	background-color: white;
+  color: white;
+  padding: 10px;
+  border: solid 1px;
+  border-color: purple;
+}
+
+img.megan2 {
+  width: 773px;
+  height: 500px;
+  padding: 4px;
+  margin: 4px;
+  border: solid 1px;
+  border-color: purple;
+}
+
+/* Erica's Styling */
+div.Etext {
+  margin: 10px;
+  font-family: 'Helvetica';
+  color: white;
+  width: 600px;
+}
+
+div.examples-erica {
+  vertical-align: top;
+  display: inline-block;
+  /*left: auto; added this*/
+  margin: 10px;
+  width: auto;
+  height: auto;
+  background-color: white;
+  color: white;
+  padding: 10px;
+}
+
+img.img-erica {
+  width: auto;
+  height: 510px;
+  object-fit: contain;
+  background-color: white;
+  border: solid 1px;
+  border-color: purple;
+}
+
+/* christian styling */
+
+div.CLtext {
+  margin: 10px;
+  font-family: 'Oxygen';
+  color: white;
+  width: 600px;
+}
+
+
+
+div.christianexamples {
+  vertical-align: top;
+  display: inline-block;
+  /*left: auto; added this*/
+  margin: 10px;
+  width: auto;
+  height: auto;
+  background-color: white;
+  color: white;
+  padding: 10px;
+}
+img.christian1 {
+  width: 773px;
+  height: 500px;
+  padding: 4px;
+  margin: 4px;
+  border: solid 1px;
+  border-color: purple;
+}
+img.christian2 {
+  width: 500px;
+  height: 773px;
+  padding: 4px;
+  margin: 4px;
+  border: solid 1px;
+  border-color: purple;
+}
+img.christian3 {
+  width: 500px;
+  height: 500px;
+  padding: 4px;
+  margin: 4px;
+  border: solid 1px;
+  border-color: purple;
+}
+img.christian4 {
+  width: 773px;
+  height: 650px;
+  padding: 4px;
+  margin: 4px;
+  border: solid 1px;
+  border-color: purple;
+}
+
+
 
 
 /* responsive styling for mobile browsing */
