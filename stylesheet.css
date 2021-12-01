@@ -57,8 +57,8 @@ div.student {
 	  text-align: left;
 	  font-family: 'Quicksand';
 	  font-size: 14px;
-    background-color: white;
-    color: white;
+    background-color: WhiteSmoke;
+    color: WhiteSmoke;
     padding: 10px;
 }
 
@@ -67,11 +67,11 @@ div.about {
   left: 193px;
   font-family: 'Quicksand';
   color: black;
-  background-color: white;
+  background-color: WhiteSmoke;
   width: 272px;
   font-size: 15px;
   border: solid;
-  border-color: white;
+  border-color: WhiteSmoke;
 }
 
 
@@ -82,8 +82,8 @@ div.examples {
   margin: 10px;
   width: 510px;
   height: auto;
-  background-color: white;
-  color: white;
+  background-color: WhiteSmoke;
+  color: WhiteSmoke;
   padding: 10px;
 }
 
@@ -344,11 +344,10 @@ img.megan1 {
   height: 500px;
   padding: 4px;
   margin: 4px;
-	background-color: white;
-  color: white;
+	background-color: WhiteSmoke;
+  color: WhiteSmoke;
   padding: 10px;
-  border: solid 1px;
-  border-color: purple;
+
 }
 
 img.megan2 {
