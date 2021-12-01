@@ -85,7 +85,7 @@ div.examples {
 }
 
 body {
-  background-color: white;
+  background-color: WhiteSmoke;
 }
 
 mark.one {
@@ -160,29 +160,6 @@ img.three {
   border: solid 1px;
   border-color: purple;
 }
-
-/* amanda styling */
-div.Atext {
-  margin: 10px;
-  font-family: 'Oxygen';
-  color: white;
-  width: 600px;
-}
-
-div.amandaexamples {
-  vertical-align: top;
-  display: inline-block;
-  /*left: auto; added this*/
-  margin: 10px;
-  width: auto;
-  height: auto;
-  background-color: white;
-  color: white;
-  padding: 10px;
-}
-
-
-
 
 
 
