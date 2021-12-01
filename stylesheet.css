@@ -76,16 +76,6 @@ div.about {
   border-color: white;
 }
 
-div.research {
-  position: relative;
-  font-family: 'Oxygen';
-  color: purple;
-  background-color: white;
-  width: 465px;
-  font-size: 15px;
-  border: solid;
-  border-color: white;
-}
 
 div.examples {
   vertical-align: top;
@@ -358,7 +348,7 @@ img.megan1 {
   /* remove .gif background set background color to purple */
   body {
     background-image: none !important;	  
-    background-color: purple !important;
+    background-color: OldLace !important;
   }
 	
 }
