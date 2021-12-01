@@ -354,7 +354,8 @@ background-color: WhiteSmoke;
   margin: 5px;
 background-color: WhiteSmoke;
    border: solid 2px;
-  border-color: DarkCyan;
+  border-color: DarkCyan;	
+  float: right;
 }
 
 /* Erica's Styling */
