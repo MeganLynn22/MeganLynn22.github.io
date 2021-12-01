@@ -351,12 +351,14 @@ img.megan1 {
 }
 
 img.megan2 {
-  width: 773px;
+  width: 750px;
   height: 500px;
-  padding: 4px;
-  margin: 4px;
-  border: solid 1px;
-  border-color: purple;
+background-color: WhiteSmoke;
+  padding: 10px;
+  margin: 5px;
+background-color: WhiteSmoke;
+   border: solid 2px;
+  border-color: DarkCyan;
 }
 
 /* Erica's Styling */
