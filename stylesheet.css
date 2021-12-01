@@ -25,9 +25,9 @@ div.subtitle {
 div.menu {
   position: relative;
  left: 193px;
-  font-family: 'Oxygen';
+  font-family: 'Quicksand';
   background-color: white;
-  color: DarkCyan;
+  color: black;
   width: 240px;
 }
 
@@ -66,8 +66,8 @@ div.student {
 div.about {
   position: relative;
   left: 193px;
-  font-family: 'Oxygen';
-  color: purple;
+  font-family: 'Quicksand';
+  color: black;
   background-color: white;
   width: 272px;
   font-size: 15px;
