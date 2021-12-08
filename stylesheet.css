@@ -3,15 +3,19 @@
 
 body {
  background-position: center;
- background-repeat: no-repeat; 
+ background-repeat: no-repeat;
  background-size: cover;
 }
 
 div.logoimage {
- position: relative;
-  left: 30px;
-}
+ border-color: red;
 
+
+}
+div.logo{
+margin-left: 40px;
+
+}
 
 div.subtitle {
   font-family: 'Oxygen';
@@ -23,11 +27,13 @@ div.subtitle {
 }
 
 div.menu {
-  position: relative;
- left: 193px;
-  font-family: 'Quicksand';
-  color: black;
-  width: 240px;
+  font-family: 'Helvetica';
+  color: DarkSlateGray;
+  width: 300px;
+  height: 150px;
+
+  float: right;
+  margin-top: 120px;
 }
 
 div.index-description {
@@ -51,29 +57,37 @@ div.student {
 	  vertical-align: top;
 	  display: inline-block;
 	  /*left: auto; added this*/
-	  margin: 10px;
-	  width: 295px;
+	  margin: 5px;
+    margin-top: 65px;
+	  width: 220px;
     height: auto;
-	  text-align: left;
-	  font-family: 'Quicksand';
+	  text-align: center;
+	  font-family: 'Helvetica';
 	  font-size: 14px;
-    background-color: WhiteSmoke;
-    color: WhiteSmoke;
-    padding: 10px;
+    background-color: White;
+    color: White;
+    border-radius: 25px;
+    border: 2px solid SlateGray;
+    padding: 20px;
+
 }
 
 div.about {
-  position: relative;
+  float:right;
   left: 193px;
-  font-family: 'Quicksand';
-  color: black;
-  background-color: WhiteSmoke;
+  font-family: 'Helvetica';
+  color: DarkSlateGray;
   width: 272px;
   font-size: 15px;
-  border: solid;
-  border-color: WhiteSmoke;
-}
 
+}
+div.mail{
+
+    margin-left: 40px;
+    font-family: 'Helvetica';
+    color: DarkSlateGray;
+
+}
 
 div.examples {
   vertical-align: top;
@@ -92,18 +106,20 @@ body {
 }
 
 mark.one {
-  color: red;
+  color: white;
   background-color: white;
 }
 
 mark.two {
   color: white;
-  background-color: DarkCyan;
+  font-size: 16px;
+  background-color: DarkSeaGreen;
 }
 
 mark.three {
   color: white;
-  background-color: DarkCyan;
+  background-color: WhiteSmoke;
+
 }
 
 mark.current {
@@ -116,26 +132,55 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
+
 }
 
 li {
   display: inline;
+
 }
 
 
 a:link {
   text-decoration: none;
-  color: white;
+  color: DarkSlateGray;
 }
 
 a:link.two {
   text-decoration: none;
-  color: white;
+  color: DarkSlateGray;
 }
 
 a:visited {
   text-decoration: none;
-	color: black;
+	color: DarkSlateGray;
+}
+
+a:active {
+  color: SlateGray;
+}
+a:hover {
+  color: DarkSeaGreen;
+}
+div.image{
+
+  float: left;
+  margin-left: 40px;
+
+
+}
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: Helvetica;
+  font-size: 24px;
+  color: DarkSlateGray;
+}
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
 }
 
 img {
@@ -143,10 +188,9 @@ img {
 }
 
 img.one {
-  width: 290px;
-  height: 290px;
-  border: solid 1px;
-  border-color: grey;
+  width: 220px;
+  height: 220px;
+
 }
 
 img.two {
@@ -167,158 +211,7 @@ img.three {
 
 
 
-/* amanda styling */
-div.Atext {
-  margin: 10px;
-  font-family: 'Oxygen';
-  color: white;
-  width: 600px;
-}
 
-div.amandaexamples {
-  vertical-align: top;
-  display: inline-block;
-  /*left: auto; added this*/
-  margin: 10px;
-  width: auto;
-  height: auto;
-  background-color: white;
-  color: white;
-  padding: 10px;
-}
-
-img.amanda1 {
-  width: 773px;
-  height: 500px;
-  padding: 4px;
-  margin: 4px;
-  border: solid 1px;
-  border-color: purple;
-}
-
-img.amanda2 {
-  width: 889px;
-  height: 500px;
-  padding: 4px;
-  margin: 4px;
-  border: solid 1px;
-  border-color: purple;
-}
-
-img.amanda3 {
-  width: 500px;
-  height: 500px;
-  padding: 4px;
-  margin: 0px;
-  border: solid 1px;
-  border-color: purple;
-}
-
-img.amanda4 {
-  width: 1182px;
-  height: 500px;
-  padding: 4px;
-  margin: 0px;
-  border: solid 1px;
-  border-color: purple;
-}
-/* end of amanda styling*/
-
-/* JACOB styling*/
-
-div.Jtext {
-  margin: 10px;
-  font-family: 'Futura';
-  color: white;
-  width: 600px;
-  text-align: center;
-}
-
-div.jacobexamples {
-  margin: 2px;
-  padding: 2px;
-  width: auto;
-  height: auto;
-  vertical-align: top;
-  display: inline-block;
-  background-color: grey;
-  color: white;
-  align-content: center;
-}
-
-img.jacob {
-  width: 486px;
-  height: 364px;
-  padding: 4px;
-  margin: 4px;
-  border: solid 2px;
-  border-color: orange;
-}
-/* end of JACOB styling*/
-
-/* CASSIAN styling*/
-
-div.Ctext {
-  margin: 10px;
-  font-family: 'M PLUS Rounded 1c';
-  color: white;
-  width: 800px;
-}
-
-div.cassianexamples {
-  margin: 4px;
-  padding: 4px;
-  width: auto;
-  height: auto;
-  vertical-align: top;
-  display: inline-block;
-  background-color: white;
-  color: white;
- 
-}
-
-img.cassian1 {
-  width: 1224px;
-  height: 792px;
-  padding: 4px;
-  margin: 4px;
-  border: solid 2px;
-  border-color: yellow;
-}
-
-img.cassian2 {
-  width: 486px;
-  height: 364px;
-  padding: 4px;
-  margin: 4px;
-  border: solid 2px;
-  border-color: orange;
-}
-/* end of CASSIAN styling*/
-
-/* Start of Polo's styling*/
-
-div.Ptext {
-	text-align: right;
-	color: white;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	margin-right: 25px;
-	margin-left: 300px;
-	border: solid;
-  	border-color: white;
-}
-
-div.Ptext2 {
-	text-align: left;
-	color: white;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	margin-right: 300px;
-	margin-left: 25px;
-	border: solid;
-  	border-color: white;
-}
 
 /* Start of Megans Styling */
 div.Mtext {
@@ -341,107 +234,24 @@ div.meganexamples {
 }
 
 img.megan1 {
-  width: 500px;
-  height: 500px;
- 
+  width: 150px;
+  height: 150px;
+
 
 }
 
 img.megan2 {
   width: 750px;
   height: 500px;
-background-color: WhiteSmoke;
+background-color: White;
   padding: 10px;
   margin: 5px;
-background-color: WhiteSmoke;
    border: solid 2px;
-  border-color: DarkCyan;	
+  border-color: DarkCyan;
   float: left;
 }
 
-/* Erica's Styling */
-div.Etext {
-  margin: 10px;
-  font-family: 'Helvetica';
-  color: white;
-  width: 600px;
-}
 
-div.examples-erica {
-  vertical-align: top;
-  display: inline-block;
-  /*left: auto; added this*/
-  margin: 10px;
-  width: auto;
-  height: auto;
-  background-color: white;
-  color: white;
-  padding: 10px;
-}
-
-img.img-erica {
-  width: auto;
-  height: 510px;
-  object-fit: contain;
-  background-color: white;
-  border: solid 1px;
-  border-color: purple;
-}
-
-/* christian styling */
-
-div.CLtext {
-  margin: 10px;
-  font-family: 'Oxygen';
-  color: white;
-  width: 600px;
-}
-
-
-
-div.christianexamples {
-  vertical-align: top;
-  display: inline-block;
-  /*left: auto; added this*/
-  margin: 10px;
-  width: auto;
-  height: auto;
-  background-color: white;
-  color: white;
-  padding: 10px;
-}
-img.christian1 {
-  width: 773px;
-  height: 500px;
-  padding: 4px;
-  margin: 4px;
-  border: solid 1px;
-  border-color: purple;
-}
-img.christian2 {
-  width: 500px;
-  height: 773px;
-  padding: 4px;
-  margin: 4px;
-  border: solid 1px;
-  border-color: purple;
-}
-img.christian3 {
-  width: 500px;
-  height: 500px;
-  padding: 4px;
-  margin: 4px;
-  border: solid 1px;
-  border-color: purple;
-}
-img.christian4 {
-  width: 773px;
-  height: 650px;
-  padding: 4px;
-  margin: 4px;
-  border: solid 1px;
-  border-color: purple;
-}
 
 
 
@@ -450,13 +260,13 @@ img.christian4 {
 
 /* when screen is 600px or less apply changes */
 @media only screen and (max-width: 600px) {
-  
+
   /* remove .gif background set background color to purple */
   body {
-    background-image: none !important;	  
-    background-color: DarkSlateGray !important;
+    background-image: none !important;
+    background-color: LightSteelBlue !important;
   }
-	
+
 }
 
 
